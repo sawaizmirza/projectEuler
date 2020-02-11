@@ -32,209 +32,241 @@ namespace ProjectEuler
 
         // public abstract void ShowAnswer();
 
-        public virtual void ShowAnswer()
+        public virtual int ShowAnswer()
         {
-            Console.WriteLine($"\nImplement answer func");
+            return default;
         }
     }
 
     class MultipleOf3And5 : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            int x = 0;
+            for (int i = 0; i < 1000; i++)
+            {
+                if (i % 3 == 0 || i % 5 == 0)
+                {
+                    x += i;
+                }
+            }
+            Console.WriteLine(x);
+            Console.ReadKey();
+            return x;
         }
     }
 
     class EvenFibonacci : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class LargestPrime : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class LargestPalindrome : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class SmallestMultiple : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class SumSquareDifference : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class TenThousandAndFirstPrime : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class LargestInASeries : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class SpecialPythagorean : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class SummationOfPrimes : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class LargestProductInAGrid : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class HighlyDivisibleNumber : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class LargeSum : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class LongestCollatzSequence : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class LatticePaths : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class PowerDigitSum : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class NumberLetterSum : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class MaxPathSumOne : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class CountingSundays : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class FactorialDigitSum : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class AmicableNumbers : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class NamesScores : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class NonAbundantSums : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
+
         }
     }
 
     class LexicographicPermutations : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
         }
     }
 
     class ThousandDigitFibNumber : Problem
     {
-        public override void ShowAnswer()
+        public override int ShowAnswer()
         {
-            // calc and write answer to console
+            return default;
         }
     }
 }

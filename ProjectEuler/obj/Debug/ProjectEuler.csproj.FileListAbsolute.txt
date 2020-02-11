@@ -3,4 +3,3 @@ C:\Users\sawaiz.mirza\OneDrive - Kaleida Ltd\Sawaiz\Training\Projects\ProjectEul
 C:\Users\sawaiz.mirza\OneDrive - Kaleida Ltd\Sawaiz\Training\Projects\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.pdb
 C:\Users\sawaiz.mirza\OneDrive - Kaleida Ltd\Sawaiz\Training\Projects\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.exe
 C:\Users\sawaiz.mirza\OneDrive - Kaleida Ltd\Sawaiz\Training\Projects\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.pdb
-C:\Users\sawaiz.mirza\OneDrive - Kaleida Ltd\Sawaiz\Training\Projects\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.csprojAssemblyReference.cache
