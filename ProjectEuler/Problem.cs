@@ -43,7 +43,7 @@ namespace ProjectEuler
         public override int ShowAnswer()
         {
             int x = 0;
-            for (int i = 0; i < 1000; i++)
+            for (int i = 1; i < 1000; i++)
             {
                 if (i % 3 == 0 || i % 5 == 0)
                 {
@@ -60,8 +60,29 @@ namespace ProjectEuler
     {
         public override int ShowAnswer()
         {
-            return default;
+            int x = 0;
 
+            var fibList = new List<int> { 1, 2 };
+
+            int limit = 4000001;
+
+            while (lastFib < 4000001)
+            {
+                lastFib = fibList[fibList.Count - 1];
+                var secondLastFib = fibList[fibList.Count - 2];
+                fibList.Add(lastFib + secondLastFib);
+                Console.WriteLine(lastFib);
+            }
+
+            foreach (var fib in fibList)
+            {
+                if (fib % 2 == 0)
+                    x += fib;
+            }
+
+            Console.WriteLine("\n"+x);
+            Console.ReadKey();
+            return x;
         }
     }
 
